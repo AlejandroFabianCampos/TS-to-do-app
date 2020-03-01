@@ -1,0 +1,45 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+
+    .float-right-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        span {
+            color: white;
+            width: 45%;
+        }
+
+        button {
+            width: 45%;
+
+            &:only-child {
+                width: 100%;
+            }
+        }
+
+    }
+}
+
+.modal {
+    
+    .modal-dialog {
+
+        .modal-content {
+
+            .modal-body {
+
+                .form-group {
+
+                    .modal-button-group {
+                        margin-top: 10px;
+                        display: flex;
+                        justify-content: space-evenly;
+                    }
+                }
+            }
+        }
+    }
+}
