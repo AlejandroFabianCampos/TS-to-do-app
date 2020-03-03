@@ -1,14 +1,14 @@
 
-export const TOGGLE_MODAL: string = 'TOGGLE_MODAL'
-export const CHANGE_USERNAME: string = 'CHANGE_USERNAME'
+export const TOGGLE_MODAL = 'TOGGLE_MODAL'
+export const CHANGE_USERNAME = 'CHANGE_USERNAME'
 
 interface toggleModalAction {
-    type: string,
+    type: typeof TOGGLE_MODAL,
     show: boolean
 }
 
 interface changeUsernameAction {
-    type: string,
+    type: typeof CHANGE_USERNAME,
     username: string
 }
 

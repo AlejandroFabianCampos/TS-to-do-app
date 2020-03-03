@@ -11,7 +11,7 @@ const initialState: homeReducerState = {
     username: ''
 }
 
-function homeReducer(state:homeReducerState = initialState, action: any):homeReducerState {
+function homeReducer(state:homeReducerState = initialState, action: actionCreatorTsTypes):homeReducerState {
     switch(action.type) {
         case TOGGLE_MODAL:
             return { ...state, showModal: action.show }
